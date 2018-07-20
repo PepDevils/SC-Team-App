@@ -1,0 +1,32 @@
+PODS:
+  - Gifu (2.0.0)
+  - ImageSlideshow (1.1.0):
+    - ImageSlideshow/Core (= 1.1.0)
+  - ImageSlideshow/Core (1.1.0)
+  - ImageSlideshow/SDWebImage (1.1.0):
+    - ImageSlideshow/Core
+    - SDWebImage (~> 3.7)
+  - SCLAlertView (0.7.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - Gifu
+  - ImageSlideshow (~> 1.1.0)
+  - ImageSlideshow/SDWebImage
+  - SCLAlertView
+  - SDWebImage (~> 3.8)
+  - youtube-ios-player-helper (~> 0.1.4)
+
+SPEC CHECKSUMS:
+  Gifu: 56a4d8f1092399159fa32662aa2232158b48d8ac
+  ImageSlideshow: 99addbef1b718272598a07036270e819d03abc17
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: aa2541859a8e428697bb9aab0c429514d89d0ada
+
+COCOAPODS: 1.1.1
