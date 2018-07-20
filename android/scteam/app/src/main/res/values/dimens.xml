@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="ts_min">12sp</dimen>
+    <dimen name="ts_med_light">14sp</dimen>
+    <dimen name="ts_med_regular">16sp</dimen>
+    <dimen name="ts_med_great">18sp</dimen>
+    <dimen name="ts_big">24sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="video_hor_margin">8dp</dimen>
+
+    <dimen name="line_height">2dp</dimen>
+
+</resources>

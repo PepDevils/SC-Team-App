@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AA0000</color>
+    <color name="colorPrimaryDark">#460000</color>
+    <color name="colorAccent">#FFFF</color>
+
+    <color name="btn_unpress_color_dialog">#AA0000</color>
+    <color name="btn_pressed_color_dialog">#33AA0000</color>
+
+    <color name="colorBragaBackground">#460000</color>
+    <color name="black_overlay">#99000000</color>
+    <color name="white_overlay">#99FFFFFF</color>
+    <color name="progress_back">#11FFFFFF</color>
+    <color name="red_overlay">#99460000</color>
+
+    <color name="translucent_black">#80000000</color>
+
+</resources>

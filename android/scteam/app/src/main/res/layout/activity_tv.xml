@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_tv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/ll_header"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="60dp"
+        android:background="@color/colorBragaBackground">
+    </View>
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:transitionName="btv_img"
+            android:layout_centerHorizontal="true"
+            android:elevation="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/scbtv" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeContainer"
+        android:layout_below="@+id/ll_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollNested"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ll_header">
+
+            <LinearLayout
+                android:id="@+id/lili"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/croped_back"
+                android:orientation="vertical">
+
+                <ProgressBar
+                    android:id="@+id/pr_bar_rot"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="160dp" />
+
+                <WebView
+                    android:id="@+id/webView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="110dp"
+                    android:layout_gravity="center"
+                    android:scrollbars="none"
+                    android:visibility="invisible" />
+
+                <FrameLayout
+                    android:id="@+id/customViewContainer"
+                    android:layout_marginTop="110dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+      </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SC Braga</string>
+
+
+    <string name="str_bt_tv">  SC Braga TV</string>
+    <string name="str_bt_tv_frase"> Veja os jogos em direto</string>
+    <string name="str_bt_noticias">Notícias</string>
+    <string name="str_bt_hist">História</string>
+
+    <string name="indis">Indisponível</string>
+
+    <!--<string name="appbar_scrolling_view_behavior"></string>-->
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_intro">IntroActivity</string>
+
+    <string name="tutorialTV"> Caso não pretenda visualizar esta informação novamente,\n pressione "Remover" </string>
+
+
+</resources>
